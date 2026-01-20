@@ -1,0 +1,80 @@
+# Node.js
+# node_modules
+node_modules/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+logs/
+*.log.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for compiled output (e.g., TypeScript, Babel)
+dist/
+build/
+out/
+es/
+lib/
+
+# Coverage directory
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env.example # Often committed, but sometimes ignored if it contains sensitive defaults
+
+# Editor/IDE specific files
+.vscode/        # VSCode settings (can be committed if shared settings are desired)
+.idea/          # IntelliJ IDEA files
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+# These are usually committed for deterministic builds, but uncomment if you prefer to ignore them.
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Optional: npm package manager folder for packages that have been installed
+# .npm/
+
+# Optional: local npm configuration file
+# .npmrc
+
+# TypeScript cache file
+*.tsbuildinfo
+
+# Single Executable Applications (SEA) related files
+# If you are building Node.js SEAs, these are the generated files.
+*.blob
+*.exe # On Windows
+*.app # On macOS
+*.bin # On Linux/macOS
+
+# Miscellaneous
+*.tgz
+.eslintcache
+.prettierignore
+.prettierrc.js # Often committed, but sometimes ignored
+.nyc_output/ # nyc test coverage output
+.cache/
+.next/ # Next.js build output
+.nuxt/ # Nuxt.js build output
+.svelte-kit/ # SvelteKit build output
+.vite/ # Vite build output
