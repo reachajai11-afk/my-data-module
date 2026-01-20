@@ -1,0 +1,20 @@
+{
+  "name": "my-data-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/app.js",
+    "test": "node --test --experimental-test-coverage dist/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}
